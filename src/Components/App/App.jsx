@@ -62,7 +62,7 @@ const App = () => {
           </button>
         )}
         <Routes>
-          <Route path="/" element={<MainSection />} />
+          <Route path="/imdb/" element={<MainSection />} />
           <Route
             path="/Management/*"
             element={<Management />}
