@@ -1,0 +1,8 @@
+.Back {
+    background: linear-gradient(transparent 0%, transparent 5%, rgba(0, 0, 0, 0.7) 70%, rgb(0, 0, 0) 83%, rgb(0, 0, 0) 100%) !important;
+}
+.Back2 {
+    inset: 0px;
+    overflow: hidden;
+    background: linear-gradient(135deg, transparent 0%, transparent 5%, rgba(var(--ipt-baseAlt-shade3-rgb, 18,18,18), 0.7) 80%, rgba(var(--ipt-baseAlt-shade3-rgb, 18,18,18), 1) 100%);
+}

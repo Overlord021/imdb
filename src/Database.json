@@ -1,0 +1,561 @@
+{
+  "Menu": [
+    {
+      "id": 1,
+      "name": "Movies",
+      "icon": "MdLocalMovies",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Release Calendar",
+          "link": "https://www.imdb.com/calendar/?ref_=nv_mv_cal"
+        },
+        {
+          "id": 2,
+          "name": "Top 250 Movies",
+          "link": "https://www.imdb.com/chart/top/?ref_=nv_mv_250"
+        },
+        {
+          "id": 3,
+          "name": "Most Popular Movies",
+          "link": "https://www.imdb.com/chart/moviemeter/?ref_=nv_mv_mpm"
+        },
+        {
+          "id": 4,
+          "name": "Browse Movies by Genre",
+          "link": "https://www.imdb.com/feature/genre/?ref_=nv_ch_gr"
+        },
+        {
+          "id": 5,
+          "name": "Top Box Office",
+          "link": "https://www.imdb.com/chart/boxoffice/?ref_=nv_ch_cht"
+        },
+        {
+          "id": 6,
+          "name": "Showtimes & Tickets",
+          "link": "https://www.imdb.com/showtimes/?ref_=nv_mv_sh"
+        },
+        {
+          "id": 7,
+          "name": "Movie News",
+          "link": "https://www.imdb.com/news/movie/?ref_=nv_nw_mv"
+        },
+        {
+          "id": 8,
+          "name": "India Movie Spotlight",
+          "link": "https://www.imdb.com/india/toprated/?ref_=nv_mv_in"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "TV Shows",
+      "icon": "FaTv",
+      "lists": [
+        {
+          "id": 1,
+          "name": "What's on TV & Streaming",
+          "link": "https://www.imdb.com/whats-on-tv/?ref_=nv_tv_ontv"
+        },
+        {
+          "id": 2,
+          "name": "Top 250 TV Shows",
+          "link": "https://www.imdb.com/chart/toptv/?ref_=nv_tvv_250"
+        },
+        {
+          "id": 3,
+          "name": "Most Popular TV Shows",
+          "link": "https://www.imdb.com/chart/tvmeter/?ref_=nv_tvv_mptv"
+        },
+        {
+          "id": 4,
+          "name": "Browse TV Shows by Genre",
+          "link": "https://www.imdb.com/feature/genre/"
+        },
+        {
+          "id": 5,
+          "name": "TV News",
+          "link": "https://www.imdb.com/news/tv/?ref_=nv_nw_tv"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Award & Events",
+      "icon": "MdStars",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Oscars",
+          "link": "https://www.imdb.com/oscars/?ref_=nv_ev_csegosc"
+        },
+        {
+          "id": 2,
+          "name": "SXSW Film Festival",
+          "link": "https://www.imdb.com/sxsw/?ref_=nv_ev_csegsxsw"
+        },
+        {
+          "id": 3,
+          "name": "Cannes Film Festival",
+          "link": "https://www.imdb.com/festival-central/cannes/?ref_=nv_ev_csegcann"
+        },
+        {
+          "id": 4,
+          "name": "STARmeter Awards",
+          "link": "https://www.imdb.com/starmeterawards/?ref_=nv_ev_sma"
+        },
+        {
+          "id": 5,
+          "name": "Awards Central",
+          "link": "https://www.imdb.com/awards-central/?ref_=nv_ev_csegawds"
+        },
+        {
+          "id": 6,
+          "name": "Festival Central",
+          "link": "https://www.imdb.com/festival-central/?ref_=nv_ev_csegfest"
+        },
+        {
+          "id": 7,
+          "name": "All Events",
+          "link": "https://www.imdb.com/event/all/?ref_=nv_ev_all"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Celebs",
+      "icon": "MdPeople",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Born Today",
+          "link": "https://www.imdb.com/feature/bornondate/?ref_=nv_cel_brn"
+        },
+        {
+          "id": 2,
+          "name": "Most Popular Celebs",
+          "link": "https://www.imdb.com/chart/starmeter/?ref_=nv_cel_m"
+        },
+        {
+          "id": 3,
+          "name": "Celebrity News",
+          "link": "https://www.imdb.com/news/celebrity/?ref_=nv_cel_nw"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Watch",
+      "icon": "AiFillPlaySquare",
+      "lists": [
+        {
+          "id": 1,
+          "name": "What to Watch",
+          "link": "https://www.imdb.com/what-to-watch/?ref_=nv_watch"
+        },
+        {
+          "id": 2,
+          "name": "Latest Trailers",
+          "link": "https://www.imdb.com/trailers/?ref_=nv_mv_tr"
+        },
+        {
+          "id": 3,
+          "name": "IMDb Originals",
+          "link": "https://www.imdb.com/originals/?ref_=nv_sf_ori"
+        },
+        {
+          "id": 4,
+          "name": "IMDb Picks",
+          "link": "https://www.imdb.com/imdbpicks/?ref_=nv_pi"
+        },
+        {
+          "id": 5,
+          "name": "IMDb Spotlight",
+          "link": "https://www.imdb.com/spotlight/?ref_=nv_vi_csegspot"
+        },
+        {
+          "id": 6,
+          "name": "IMDb Podcasts",
+          "link": "https://www.imdb.com/search/title/?title_type=podcastSeries&ref_=nv_pod"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Community",
+      "icon": "IoEarthSharp",
+      "lists": [
+        {
+          "id": 1,
+          "name": "Help Center",
+          "link": "https://help.imdb.com/imdb?ref_=cons_nb_hlp"
+        },
+        {
+          "id": 2,
+          "name": "Contributor Zone",
+          "link": "https://contribute.imdb.com/czone?ref_=nv_cm_cz"
+        },
+        {
+          "id": 3,
+          "name": "Polls",
+          "link": "https://www.imdb.com/poll/?ref_=nv_cm_pl"
+        }
+      ]
+    }
+  ],
+  "Trailer": [
+    {
+      "id": 1,
+      "title": "Is Russell Crowe Cursed?",
+      "caption": "Watch 'The Exorcism' Trailer",
+      "time": "2:24",
+      "cover": "./Images/Exorcism-cover.jpg",
+      "banner": "./Images/Exorcism-banner2.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Taking on \"Challengers\"",
+      "caption": "Zendaya, Mike, and Josh Share Their Creative Process",
+      "time": "4:32",
+      "cover": "./Images/Challengers-cover.jpg",
+      "banner": "./Images/Challengers-banner.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Things Get Strange in 'Blink Twice'",
+      "caption": "Watch the Trailer",
+      "time": "2:42",
+      "cover": "./Images/Blink-cover.jpg",
+      "banner": "./Images/Blink-banner.jpg"
+    },
+    {
+      "id": 4,
+      "title": "5 Video Game Adaptations to Watch in 2024",
+      "caption": "\"Knuckles\" and More",
+      "time": "1:05",
+      "cover": "./Images/Sonic-cover.jpg",
+      "banner": "./Images/Sonic-banner.jpg"
+    },
+    {
+      "id": 5,
+      "title": "J.Lo Fights for Humanity in 'Atlas'",
+      "caption": "Watch the Trailer",
+      "time": "2:36",
+      "cover": "./Images/Jlo-cover.jpg",
+      "banner": "./Images/Jlo-banner.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Kathryn Newton Knows Her Vampire Movies",
+      "caption": "The 'Abigail' Cast Take Our Pop Quiz",
+      "time": "4:20",
+      "cover": "./Images/Abigail-cover.jpg",
+      "banner": "./Images/Abigail-banner.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Is \"X-Men '97\" in the MCU?",
+      "caption": "Connect the Dots With Marvel Exec Brad Winderbaum",
+      "time": "4:41",
+      "cover": "./Images/X-Men-cover.jpg",
+      "banner": "./Images/X-Men-banner.jpg"
+    },
+    {
+      "id": 8,
+      "title": "The Rise of Zendaya",
+      "caption": "From \"Shake It Up\" to 'Challengers'",
+      "time": "3:42",
+      "cover": "./Images/Rise-cover.jpg",
+      "banner": "./Images/Rise-banner.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Filmmaker Alex Garland Reflects on His Career",
+      "caption": "From '28 Days Later' to 'Civil War'",
+      "time": "3:55",
+      "cover": "./Images/Filmmaker-cover.jpg",
+      "banner": "./Images/Filmmaker-banner.jpg"
+    },
+    {
+      "id": 10,
+      "title": "'Transformers One'",
+      "caption": "Watch the Trailer",
+      "time": "3:02",
+      "cover": "./Images/Transformers-cover.jpg",
+      "banner": "./Images/Transformers-banner.jpg"
+    },
+    {
+      "id": 11,
+      "title": "'The Watchers'",
+      "caption": "Try Not to Die...",
+      "time": "2:55",
+      "cover": "./Images/Watchers-cover.jpg",
+      "banner": "./Images/Watchers-banner.jpg"
+    }
+  ],
+  "Feature": [
+    {
+      "id": 1,
+      "image": "./Images/Feature1.jpg",
+      "title": "Staff Picks: What to Watch in May",
+      "caption": "See our picks",
+      "link": "#"
+    },
+    {
+      "id": 2,
+      "image": "./Images/Feature2.jpg",
+      "title": "See Which Stars Are Trending on IMDb",
+      "caption": "See the gallery",
+      "link": "#"
+    },
+    {
+      "id": 3,
+      "image": "./Images/Feature3.jpg",
+      "title": "TV Tracker: Renewed and Canceled Shows",
+      "caption": "Check the status",
+      "link": "#"
+    },
+    {
+      "id": 4,
+      "image": "./Images/Feature4.jpg",
+      "title": "The Latest TV & Movie Posters",
+      "caption": "See the gallery",
+      "link": "#"
+    },
+    {
+      "id": 5,
+      "image": "./Images/Feature5.jpg",
+      "title": "The Best Photos of the Week",
+      "caption": "See more stills",
+      "link": "#"
+    },
+    {
+      "id": 6,
+      "image": "./Images/Feature6.jpg",
+      "title": "Mia Goth in 'MaXXXine' and More New Stills",
+      "caption": "See more posters",
+      "link": "#"
+    }
+  ],
+  "Exclusive": [
+    {
+      "id": 1,
+      "image": "./Images/Exclusive1.jpg",
+      "title": "How Dev Patel Directed a Movie With Only One Paw",
+      "time": "2:59"
+    },
+    {
+      "id": 2,
+      "image": "./Images/Exclusive2.jpg",
+      "title": "5 Questions With Lilly Singh",
+      "time": "3:18"
+    },
+    {
+      "id": 3,
+      "image": "./Images/Exclusive3.jpg",
+      "title": "Anne Hathaway on Nicholas Galitzine's Heartthrob Status",
+      "time": "5:41"
+    },
+    {
+      "id": 4,
+      "image": "./Images/Exclusive4.jpg",
+      "title": "Anne Hathaway on Nicholas Galitzine's Heartthrob Status",
+      "time": "3:23"
+    },
+    {
+      "id": 5,
+      "image": "./Images/Exclusive5.jpg",
+      "title": "The Art of the Con in \"Ripley\"",
+      "time": "2:39"
+    },
+    {
+      "id": 6,
+      "image": "./Images/Exclusive6.jpg",
+      "title": "Ryan Gosling and Emily Blunt Talk Stunts and Spicy Margs",
+      "time": "6:32"
+    },
+    {
+      "id": 7,
+      "image": "./Images/Exclusive7.jpg",
+      "title": "4 Basketball Classics and 3 You May Have Missed",
+      "time": "1:40"
+    }
+  ],
+  "Explore": [
+    {
+      "image": "/Images/Explore1.jpg",
+      "rate": "6",
+      "title": "The Voyeurs",
+      "rate2": "1",
+      "id": "1"
+    },
+    {
+      "image": "/Images/Explore2.jpg",
+      "rate": "6",
+      "title": "Chehre",
+      "rate2": "2",
+      "id": "2"
+    },
+    {
+      "image": "/Images/Explore3.jpg",
+      "rate": "4",
+      "title": "Cinderella",
+      "rate2": "4",
+      "id": "3"
+    },
+    {
+      "image": "/Images/Explore4.jpg",
+      "rate": "6",
+      "title": "The Tomorrow War",
+      "rate2": "6",
+      "id": "4"
+    },
+    {
+      "image": "/Images/Explore5.jpg",
+      "rate": "4",
+      "title": "Black as Night",
+      "rate2": "4",
+      "id": "5"
+    },
+    {
+      "image": "/Images/Explore6.jpg",
+      "rate": "5",
+      "title": "The Manor",
+      "rate2": "3",
+      "id": "6"
+    },
+    {
+      "image": "/Images/Explore7.jpg",
+      "rate": "4",
+      "title": "Bingo Hell",
+      "rate2": "3",
+      "id": "7"
+    },
+    {
+      "image": "/Images/Explore8.jpg",
+      "rate": "6",
+      "title": "Everybody's Talking About Jamie",
+      "rate2": "6",
+      "id": "8"
+    },
+    {
+      "image": "/Images/Explore9.jpg",
+      "rate": "5",
+      "title": "Birds of Paradise",
+      "rate2": "9",
+      "id": "9"
+    },
+    {
+      "image": "/Images/Explore10.jpg",
+      "rate": "8",
+      "title": "Shershaah",
+      "rate2": "3",
+      "id": "10"
+    },
+    {
+      "image": "/Images/Explore11.jpg",
+      "rate": "4",
+      "title": "Madres",
+      "rate2": "9",
+      "id": "11"
+    },
+    {
+      "image": "/Images/Explore12.jpg",
+      "rate": "5",
+      "title": "Thalaivi",
+      "rate2": "9",
+      "id": "12"
+    },
+    {
+      "image": "/Images/Explore13.jpg",
+      "rate": "5",
+      "title": "Justin Bieber: Our World",
+      "rate2": "0",
+      "id": "13"
+    },
+    {
+      "image": "/Images/Explore14.jpg",
+      "rate": "6",
+      "title": "Suspiria",
+      "rate2": "7",
+      "id": "14"
+    },
+    {
+      "image": "/Images/Explore15.jpg",
+      "rate": "6",
+      "title": "Bellbottom",
+      "rate2": "1",
+      "id": "15"
+    },
+    {
+      "image": "/Images/Explore16.jpg",
+      "rate": "7",
+      "title": "Sound of Metal",
+      "rate2": "7",
+      "id": "16"
+    },
+    {
+      "image": "/Images/Explore17.jpg",
+      "rate": "7",
+      "title": "Beautiful Boy",
+      "rate2": "4",
+      "id": "17"
+    },
+    {
+      "image": "/Images/Explore18.jpg",
+      "rate": "5",
+      "title": "Without Remorse",
+      "rate2": "8",
+      "id": "18"
+    },
+    {
+      "image": "/Images/Explore19.jpg",
+      "rate": "6",
+      "title": "The Mad Women's Ball",
+      "rate2": "6",
+      "id": "19"
+    },
+    {
+      "image": "/Images/Explore20.jpg",
+      "rate": "7",
+      "title": "S.W.A.T",
+      "rate2": "2",
+      "id": "20"
+    },
+    {
+      "image": "/Images/Explore21.jpg",
+      "rate": "8",
+      "title": "Reacher",
+      "rate2": "1",
+      "id": "21"
+    },
+    {
+      "image": "/Images/Explore22.jpg",
+      "rate": "9",
+      "title": "Sherlock",
+      "rate2": "1",
+      "id": "22"
+    },
+    {
+      "image": "/Images/Explore23.jpg",
+      "rate": "7",
+      "title": "Midsomer Murders",
+      "rate2": "9",
+      "id": "23"
+    },
+    {
+      "image": "/Images/Explore24.jpg",
+      "rate": "9",
+      "title": "The Godfather",
+      "rate2": "2",
+      "id": "24"
+    },
+    {
+      "image": "/Images/Explore25.jpg",
+      "rate": "8",
+      "title": "Doctor Who",
+      "rate2": "6",
+      "id": "25"
+    }
+  ]
+}
