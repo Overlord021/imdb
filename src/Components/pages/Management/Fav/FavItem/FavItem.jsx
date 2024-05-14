@@ -1,15 +1,10 @@
-import React, { useContext, useRef, useState } from "react";
-// Import Swiper React components
+import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/free-mode";
-
 import "./styles.css";
 import "./FavItem.css";
-// import required modules
 import { FreeMode, Navigation } from "swiper/modules";
 import { FaPlay, FaStar } from "react-icons/fa";
 import { HiOutlineStar } from "react-icons/hi";
@@ -39,25 +34,6 @@ const FavItem = () => {
                 <span>This week's top TV and movies</span>
               </div>
             </div>
-            {/* <div className="w-full flex items-center justify-between pb-6">
-              <div className="w-[300px] flex justify-between">
-                <Link to="/Management/TopTen/Add">
-                  <button className="btn btn-md bg-green-800 hover:bg-green-600 w-24">
-                    Add
-                  </button>
-                </Link>
-                <Link to="/Management/TopTen/Edit">
-                  <button className="btn btn-md bg-blue-800 hover:bg-blue-500 w-24">
-                    Edit
-                  </button>
-                </Link>
-                <Link to="/Management/TopTen/Remove">
-                  <button className="btn btn-md bg-red-800 hover:bg-red-500 w-24">
-                    Remove
-                  </button>
-                </Link>
-              </div>
-            </div> */}
           </div>
 
           <Swiper

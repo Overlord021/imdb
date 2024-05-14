@@ -1,14 +1,9 @@
-import React, { useContext, useRef, useState } from "react";
-// Import Swiper React components
+import React, { useContext } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/free-mode";
-
 import "./styles.css";
-// import required modules
 import { FreeMode, Navigation } from "swiper/modules";
 import { FaPlay, FaStar } from "react-icons/fa";
 import { HiOutlineStar } from "react-icons/hi";

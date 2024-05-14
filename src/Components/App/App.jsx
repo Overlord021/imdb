@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./App.css";
 import Navigation from "../Navigation/Navigation";
 import axios from "axios";
-import { BrowserRouter, Link, Navigate, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MainSection from "../pages/MainSection/MainSection";
 import Management from "../pages/Management/Management";
 import Unavailable from "../pages/Unavailable/Unavailable";
@@ -12,7 +12,6 @@ export const MyContext = React.createContext();
 const App = () => {
   const [appmain, setAppMain] = useState([]);
   const [error, setError] = useState("");
-  // console.log(appmain)
   const fetchAppMain = async () => {
     try {
       let res = await axios(
@@ -62,9 +61,9 @@ const App = () => {
           </button>
         )}
         <Routes>
-          <Route path="/" element={<MainSection />} />
+          <Route path="/imdb/" element={<MainSection />} />
           <Route
-            path="/Management/*"
+            path="/Management"
             element={<Management />}
           />
           <Route path="*" element={<Unavailable />} />

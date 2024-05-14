@@ -84,7 +84,7 @@ const NavDesktop = () => {
         <div className="xl:w-[1280px] lg:w-[1024px] w-[100vw] flex justify-between lg:justify-between md:justify-center items-center">
           {/****************************** logo and menu ****************************** */}
           <div className="xl:navbar-start md:w-[140px] lg:w-[180px] xl:me-4 xl:flex xl:flex-row xl:justify-between lg:navbar-start  lg:flex lg:flex-row lg:justify-between md:navbar-start md:flex flex flex-row-reverse md:justify-between">
-            <Link to="/">
+            <Link to="/imdb/">
               <a
                 className="btn no-animation btn-sm p-0 flex border-none hover:bg-transparent hover:border-none md:mx-1 mdd:mx-0 text-xl"
                 href="#"
@@ -136,9 +136,6 @@ const NavDesktop = () => {
               <div className=" h-[32px] sm:col-span-3 border-none">
                 <div className="border-none">
                   <select
-                    id="country"
-                    name="country"
-                    autoComplete="country-name"
                     className="bg-white w-full text-black rounded-md rounded-r-none h-[32px] border-none focus:outline-none py-1.5 sm:max-w-xs sm:text-sm sm:leading-6"
                   >
                     <option selected>All</option>
@@ -154,14 +151,14 @@ const NavDesktop = () => {
               <label className="xl:w-[86%] lg:w-[78%] md:w-[86%] h-[32px] int bg-white text-black focus:border-none border-l-[1px] border-l-[#B2B2B2] flex items-center rounded-l-none rounded-md">
                 <input
                   type="text"
-                  className="grow bg-white"
+                  className="grow bg-white outline-none ps-2"
                   placeholder="Search IMDb"
                 />
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 16 16"
                   fill="currentColor"
-                  className="w-4 h-4 opacity-70"
+                  className="w-4 h-4 opacity-70 me-2"
                 >
                   <path
                     fillRule="evenodd"
@@ -217,9 +214,7 @@ const NavDesktop = () => {
             <a
               className="btn no-animation btn-sm bg-transparent hover:bg-[#252525] border-none rounded-sm hidden lg:flex text-white"
               role="button"
-              tabindex="0"
-              aria-disabled="false"
-              href="/list/watchlist?ref_=nv_usr_wl_all_0"
+              href="#"
             >
               <svg
                 width="24"
@@ -242,9 +237,7 @@ const NavDesktop = () => {
             <a
               className="btn no-animation btn-sm bg-transparent hover:bg-[#252525] border-none rounded-sm md:mx-1 mdd:mx-0 text-white"
               role="button"
-              tabindex="0"
-              aria-disabled="false"
-              href="/registration/signin?ref=nv_generic_lgin&amp;u=%2F"
+              href="#"
             >
               <span>Sign In</span>
             </a>
@@ -254,9 +247,7 @@ const NavDesktop = () => {
             <a
               className="btn no-animation btn-sm lg:hidden bg-[#f5c518] hover:bg-[#E2B616] border-none rounded-md text-white"
               role="button"
-              tabindex="0"
-              aria-disabled="false"
-              href="/registration/signin?ref=nv_generic_lgin&amp;u=%2F"
+              href="#"
             >
               <span className="text-black">Use App</span>
             </a>
@@ -265,13 +256,9 @@ const NavDesktop = () => {
             {/****************************** EN ****************************** */}
             <label
               className="btn no-animation btn-sm bg-transparent hidden lg:flex hover:bg-[#252525] border-none rounded-sm text-white"
-              aria-haspopup="true"
               role="button"
-              tabindex="0"
-              aria-label="Toggle language selector"
-              aria-disabled="false"
-              for="nav-language-selector"
             >
+            <div className="w-full flex justify-center items-center">
               <span className="font-bold text-md">EN</span>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -284,6 +271,8 @@ const NavDesktop = () => {
                 <path fill="none" d="M0 0h24v24H0V0z"></path>
                 <path d="M8.71 11.71l2.59 2.59c.39.39 1.02.39 1.41 0l2.59-2.59c.63-.63.18-1.71-.71-1.71H9.41c-.89 0-1.33 1.08-.7 1.71z"></path>
               </svg>
+            </div>
+              
             </label>
             {/****************************** EN ****************************** */}
           </div>
@@ -297,7 +286,7 @@ const NavDesktop = () => {
       >
         <div className="w-full h-[100vh] bg-[#1F1F1F] flex flex-col items-center absolute z-50 ">
           <div className="w-[280px] h-[56px] lg:w-[1024px] my-4 lg:my-6 flex justify-between lg:justify-between items-center">
-            <Link className="hidden lg:flex" to="/" onClick={handleLogoClick}>
+            <Link className="hidden lg:flex" to="/imdb/" onClick={handleLogoClick}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="98"
@@ -320,7 +309,7 @@ const NavDesktop = () => {
                 </g>
               </svg>
             </Link>
-            <Link className="flex ms-2" to="Management">
+            <Link className="flex ms-2" to="/Management">
               <button
                 className="btn bg-[#f5c518] hover:bg-[#E2B616] btn-outline text-[#1F1F1F] border-none"
                 onClick={handleManagementClick}
