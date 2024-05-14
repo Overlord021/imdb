@@ -145,7 +145,7 @@ const FavItem = () => {
                         </div>
                         <div className="w-full h-[48px] flex">
                           <span className="ms-3 text-[16px] text-white cursor-pointer hover:underline hover:underline-offset-2">
-                            {elem.title}
+                            {elem.id +". " + elem.title}
                           </span>
                         </div>
                         <div className="w-full h-full flex mt-4 justify-center">

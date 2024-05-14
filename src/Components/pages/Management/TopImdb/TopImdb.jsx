@@ -30,14 +30,3 @@ const TopImdb = () => {
   }
   
   export default TopImdb
-  {/* <div className="w-[300px] flex justify-between">
-      <Link to="/Management/TopTen/Add">
-        <button className="btn btn-md bg-green-800 hover:bg-green-600 w-24">Add</button>
-      </Link>
-      <Link to="/Management/TopTen/Edit">
-        <button className="btn btn-md bg-blue-800 hover:bg-blue-500 w-24">Edit</button>
-      </Link>
-      <Link to="/Management/TopTen/Remove">
-        <button className="btn btn-md bg-red-800 hover:bg-red-500 w-24">Remove</button>
-      </Link>
-    </div> */}

@@ -84,7 +84,7 @@ const NavDesktop = () => {
         <div className="xl:w-[1280px] lg:w-[1024px] w-[100vw] flex justify-between lg:justify-between md:justify-center items-center">
           {/****************************** logo and menu ****************************** */}
           <div className="xl:navbar-start md:w-[140px] lg:w-[180px] xl:me-4 xl:flex xl:flex-row xl:justify-between lg:navbar-start  lg:flex lg:flex-row lg:justify-between md:navbar-start md:flex flex flex-row-reverse md:justify-between">
-            <Link to="/imdb/">
+            <Link to="/">
               <a
                 className="btn no-animation btn-sm p-0 flex border-none hover:bg-transparent hover:border-none md:mx-1 mdd:mx-0 text-xl"
                 href="#"
@@ -297,7 +297,7 @@ const NavDesktop = () => {
       >
         <div className="w-full h-[100vh] bg-[#1F1F1F] flex flex-col items-center absolute z-50 ">
           <div className="w-[280px] h-[56px] lg:w-[1024px] my-4 lg:my-6 flex justify-between lg:justify-between items-center">
-            <Link className="hidden lg:flex" to="/imdb/" onClick={handleLogoClick}>
+            <Link className="hidden lg:flex" to="/" onClick={handleLogoClick}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="98"
